@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="code.js"></script>
+    <title>ЛР6</title>
+</head>
+
+<body>
+    <header>
+        <h1>Лабораторна робота №6</h1>
+        <h2>Виконав студент групи АнД-31 Пархоменко Е. Д.</h2>
+    </header>
+    <nav class="navbar">
+        <ul class="navbar__list">
+            <li><a class="b-menu_select" href="index.html">Лабораторна робота №1</a></li>
+            <li><a href="#!">Лабораторна робота №2</a></li>
+            <li><a href="#!">Лабораторна робота №3</a></li>
+            <li><a href="#!">Лабораторна робота №4</a></li>
+            <li><a href="#!">Лабораторна робота №5</a></li>
+        </ul>
+    </nav>
+
+    <nav class="navbar-burger">
+        <input id="menu-toggle" type="checkbox" />
+        <label class="flex menu_btn" for="menu-toggle">
+            <span></span>
+        </label>
+        <ul class="navbar__list">
+
+            <li><a class="b-menu_select" href="index.html">Лабораторна робота №1</a></li>
+            <li><a href="#!">Лабораторна робота №2</a></li>
+            <li><a href="#!">Лабораторна робота №3</a></li>
+            <li><a href="#!">Лабораторна робота №4</a></li>
+            <li><a href="#!">Лабораторна робота №5</a></li>
+        </ul>
+    </nav>
+
+    <h2>Завдання лабораторної</h2>
+    <div class="b-task">
+        2. Створити масиви значень:
+        <br>
+        − концертна група чи виконавець;
+        <br>
+        − місце проведення концерту (допускається пусте значення);
+        <br>
+        − дата проведення концерту.
+        <br>
+        Квиток потрібно придбати за 5 днів до концерту. Вивести повідомлення
+        про те, що сьогодні останній термін придбання квитка, чи сьогодні йде концерт.
+        Якщо не вказано місце проведення концерту, вивести додаткове повідомлення
+        „Невідома адреса проведення концерту”.
+    </div>
+    <button id="verify" onclick="result()">
+        Придбати квиток
+    </button>
+    <div id="finish"></div>
+</body>
+
+</html>

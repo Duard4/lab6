@@ -1,0 +1,83 @@
+@import url(reset.css);
+@import url(base.css);
+@import url(media.css);
+@import url(burger.css);
+body {
+    background-color: var(--bg-color);
+    margin: 5%;
+    width: 90%;
+    height: 100%;
+    color: rgb(167, 205, 255);
+}
+
+header {
+    display: grid;
+    gap: 20%;
+    margin-top: 5%;
+}
+
+table {
+    background-color: var(--table-color);
+    color: var(--table-text-color);
+    padding: 2%;
+    border-radius: 5%;
+    width: auto;
+    border-spacing: 10px;
+    max-width: 90%;
+    gap: 5px;
+    text-align: center;
+}
+
+.b-header {
+    text-align: center;
+    position: relative;
+}
+
+.b-task {
+    font-size: medium;
+    padding: 2%;
+}
+
+#verify {
+    background-color: var(--button-color);
+    border: none;
+    color: var(--btn-text-color);
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
+#verify:hover {
+    background-color: var(--active-btn-color);
+    color: var(--active-btn-text-color);
+    transition: all 0.2s ease-out;
+}
+
+.navbar__list {
+    display: flex;
+    margin: 5% 0 5% 0;
+    gap: 5%;
+}
+
+.navbar__list li a {
+    font-size: 18px;
+}
+
+.navbar__list a:hover,
+.navbar__list a:active {
+    color: blueviolet;
+}
+.navbar-burger {
+    display: none;
+}
+.flex {
+    display: flex;
+}
+.navbar-burger .navbar__list {
+    visibility: hidden;
+    gap: 25%;
+    margin: 0 0 -12% 0;
+}

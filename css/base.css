@@ -1,0 +1,21 @@
+:root {
+    --bg-color : rgba(15, 12, 42, 0.959);
+    --table-color:  rgb(22, 80, 127);
+    --table-text-color: rgb(196, 251, 237);
+    --button-color: rgb(8, 58, 99);
+    --active-btn-color:rgb(150, 3, 187);
+    --btn-text-color: rgb(158, 232, 221);
+    --active-btn-text-color:rgb(229, 253, 77);
+    --link-color: rgba(84, 114, 130, 0.959);    
+    --text-color: ;
+    --title-color: ;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 24px;
+}
+h1, h2, a, label, legend, div, table{
+    font-family: Arial, Helvetica, sans-serif;
+}
